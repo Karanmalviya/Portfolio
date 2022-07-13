@@ -2,10 +2,11 @@ import React from "react";
 import "./Portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
-import IMG3 from "../../assets/portfolio3.jpg";
+// import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.png";
+import IMG7 from "../../assets/portfolio7.png";
 
 const data = [
   {
@@ -23,12 +24,19 @@ const data = [
     demo: "#",
   },
   {
-    id: 3,
-    image: IMG3,
-    title: "Spotify Clone",
-    github: "https://github.com/Karanmalviya/spotify-clone",
-    demo: "#",
+    id: 7,
+    image: IMG7,
+    title: "Random Meme Chrome Extension",
+    github: "https://github.com/Karanmalviya/random-meme-chrome-extension",
+    demo: "https://user-images.githubusercontent.com/72023877/176505829-0e791dc6-fc35-4ff8-aa9a-ab9faddc5ab5.png",
   },
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: "Spotify Clone",
+  //   github: "https://github.com/Karanmalviya/spotify-clone",
+  //   demo: "#",
+  // },
   {
     id: 4,
     image: IMG4,
